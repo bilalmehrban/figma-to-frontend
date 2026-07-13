@@ -1,0 +1,23 @@
+{
+  "name": "figma-to-frontend",
+  "displayName": "Figma to Frontend",
+  "version": "1.0.0",
+  "description": "Converts Figma designs into production-ready, responsive static frontend code (HTML5 + Bootstrap 5 or Tailwind CSS + vanilla JS), with Figma-variable-based design tokens (W3C DTCG format), RTL/Arabic support, and Playwright visual-regression + axe-core accessibility testing.",
+  "author": {
+    "name": "Bilal Mehrban"
+  },
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "design-to-code",
+    "frontend",
+    "html",
+    "css",
+    "tailwind",
+    "bootstrap",
+    "design-tokens",
+    "accessibility",
+    "rtl",
+    "playwright"
+  ]
+}
