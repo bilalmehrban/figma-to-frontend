@@ -72,7 +72,7 @@ Claude Code auto-loads any folder under a skills directory that contains a `.cla
 
 **Install from GitHub as a proper plugin** (once pushed):
 ```
-/plugin marketplace add <bilalmehrban>/figma-to-frontend
+/plugin marketplace add bilalmehrban/figma-to-frontend
 /plugin install figma-to-frontend@figma-to-frontend-marketplace
 ```
 This repo ships its own `.claude-plugin/marketplace.json` pointing at itself (`"source": "."`), so it can act as a single-plugin marketplace without a separate catalog repo. This self-referencing pattern is supported in recent Claude Code releases — if `/plugin install` can't find it, update Claude Code first (`claude --debug` will show marketplace/plugin load messages if something's off) before assuming the repo structure is wrong.
