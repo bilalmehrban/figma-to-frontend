@@ -59,7 +59,7 @@ Reference docs are only loaded when the relevant step is reached, not all up fro
 
 **Quick local test** (no install, just point Claude Code at the folder):
 ```bash
-git clone https://github.com/<your-username>/figma-to-frontend.git
+git clone https://github.com/bilalmehrban/figma-to-frontend.git
 claude --plugin-dir ./figma-to-frontend
 ```
 Then try `/figma-to-frontend:convert` inside the session, or just ask Claude to convert a Figma link — the skill also triggers automatically based on its description.
